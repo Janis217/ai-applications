@@ -2,7 +2,7 @@
 
 This app compares 3 image classification approaches on pet images:
 
-- Fine-tuned ViT model (`kuhs/pokemon-vit`)
+- Fine-tuned ViT model [(`kuhs/vit-base-oxford-iiit-pets`)](https://huggingface.co/kuhs/vit-base-oxford-iiit-pets)
 - Zero-shot CLIP (`openai/clip-vit-large-patch14`)
 - OpenAI vision model (LLM image classification)
 
