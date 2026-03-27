@@ -10,20 +10,21 @@ This app compares 3 image classification approaches on pet images:
 
 - Hugging Face dataset loader: `load_dataset("pcuenq/oxford-pets")`
 - Kaggle dataset reference: https://www.kaggle.com/datasets/tanlikesmath/the-oxfordiiit-pet-dataset
+- Number of classes: `37`
 
 ## Trained Model
 
-- Hugging Face model link: https://huggingface.co/kuhs/pokemon-vit
+- Hugging Face model link: [https://huggingface.co/kuhs/vit-base-oxford-iiit-pets](https://huggingface.co/kuhs/vit-base-oxford-iiit-pets)
 
 ## Training Performance
 
-| Epoch | Step | Validation Loss | Accuracy |
-|---|---:|---:|---:|
-| 1.0 | 10 | 1.8412 | 0.2105 |
-| 2.0 | 20 | 1.6505 | 0.3684 |
-| 3.0 | 30 | 1.5253 | 0.6316 |
-| 4.0 | 40 | 1.4592 | 0.6316 |
-| 5.0 | 50 | 1.4373 | 0.6316 |
+| Training Loss | Epoch | Step | Validation Loss | Accuracy |
+|---:|---:|---:|---:|---:|
+| 0.3582 | 1.0 | 370 | 0.2997 | 0.9256 |
+| 0.2125 | 2.0 | 740 | 0.2200 | 0.9418 |
+| 0.1573 | 3.0 | 1110 | 0.1966 | 0.9405 |
+| 0.1472 | 4.0 | 1480 | 0.1884 | 0.9445 |
+| 0.1338 | 5.0 | 1850 | 0.1865 | 0.9472 |
 
 ## Example Image Results
 
