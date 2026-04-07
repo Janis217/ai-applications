@@ -26,7 +26,7 @@ This app compares 3 image classification approaches on pet images:
 | 0.1472 | 4.0 | 1480 | 0.1884 | 0.9445 |
 | 0.1338 | 5.0 | 1850 | 0.1865 | 0.9472 |
 
-## Example Image Results
+## Example Image Results 
 
 The table below reports the true class and Top-3 predictions for ViT and CLIP.
 
